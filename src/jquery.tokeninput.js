@@ -676,7 +676,7 @@ $.TokenList = function (input, url_or_data, settings) {
         input_box.val("");
 
         // Don't show the help dropdown, they've got the idea
-        hide_dropdown();
+        //hide_dropdown();
 
         // Execute the onAdd callback if defined
         if($.isFunction(callback)) {
